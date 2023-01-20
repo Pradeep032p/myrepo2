@@ -388,5 +388,3 @@ async def get_shortlink(link):
             return await shortz.convert(link, silently_fail=False)
     return link
 
-
-
